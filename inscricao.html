@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inscrição</title>
+
+    <link rel="stylesheet" href="inscricao.css">
 </head>
 
 <body>
@@ -15,19 +17,19 @@
 
     <main>
         <section>
-            <div id="Formulario">
+            <div id="container">
                 <form action="">
-                    <label for="">Nome completo:</label>
-                    <input type="text">
+                    <label for="txt">Nome completo:</label>
+                    <input type="text" id="txt" required>
 
-                    <label for="">Email:</label>
-                    <input type="email" name="" id="">
+                    <label for="mail">Email:</label>
+                    <input type="email" name="mail" id="mail" required>
 
-                    <label for="">Celular:</label>
-                    <input type="tel" name="" id="">
+                    <label for="cell">Celular:</label>
+                    <input type="tel" name="cell" id="cell" required>
 
-                    <label for="">CPF:</label>
-                    <input type="number" name="" id="">
+                    <label for="cpf">CPF:</label>
+                    <input type="number" name="cpf" id="cpf" required>
 
                     <button type="submit">ENVIAR</button>
                 </form>
