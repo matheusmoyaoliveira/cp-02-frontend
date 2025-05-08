@@ -7,6 +7,32 @@
     margin: 0;
 }
 
+header {
+    background-color: aqua;
+    text-align: center;
+
+    padding: 10px;
+    margin-bottom: 45px;
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+
+    background-color: azure;
+    padding: 8px;
+    border-radius: 8px;
+}
 
 section {
     display: flex;
