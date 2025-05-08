@@ -1,0 +1,11 @@
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
